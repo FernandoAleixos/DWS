@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: gainsboro;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding-left: 15%;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: rgb(226, 43, 43);   
+}
+
+a:hover {
+    background-color: yellowgreen;
+}
+
+a:active {
+    color: aqua;
+}
+
+
+
+.imgCentro {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    left: 25%;
+}
+
+#inicio {
+    padding-bottom: 10px;
+}
+
+#ofertas {
+    position: relative;
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+#mas_vendido {
+    position: relative;
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+#nuevo {
+    position: relative;
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+.imatges {
+    width: 60%;
+    height: 80%;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(177, 177, 177);
+    clear: both;
+}
+
+#mapa {
+    position: relative;
+    padding: 30px;
+    clear: both;
+}
+
+#referencias {
+    position: relative;
+    left: 35%;
+}
+
+#logo {
+    position: relative;   
+}
