@@ -42,7 +42,6 @@
             }
         }
 
-
         if(is_numeric($preu)) { //Si el precio es un número comprobara si es positivo
             if($precio < 0) {
                 $error .= 'El precio debe ser positivo';

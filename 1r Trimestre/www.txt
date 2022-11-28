@@ -1,0 +1,16 @@
+1. Se crea el archivo MOSTRAR, que muestra los datos insertados en la tabla de PHp MyAdmin
+
+2. Se crea el FORMULARIO para introducir los datos a la tabla. Después de esto se crea el fichero INSERTAR donde se insertarán los datos a la talba. 
+    Ponemos el SESSION en los documentos que lo necesiten, como INSERTAR (nombre_insertado) y en FORMULARIO (nombre_no_insertado).
+
+3. Validación de los datos introducidos.
+
+4. Editamos y borramos los campos de la tabla. 
+    Primero crearemos el botón de editar en la tabla de MOSTRAR.
+    Hacemos referencia a la variable "idvehiculo" en el fichero FORMULARIO, creando el isset.
+
+5. 
+
+6. Cremos la segunda tabla en la base de datos y las vinculamos mediante un id (id_Marca) y cremos otro producto (prenda).
+
+7. Finalmente creamos usuarios y los logueamos en el servidor, validamos la contraseña y creamos la cookies para que el usuario quede logueado.
